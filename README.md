@@ -29,31 +29,19 @@
 <p>Firslty download the pretrained model for classification from <a href='https://drive.google.com/file/d/1rOGo8Lc9mvboVdcxb473tnrAglQ7_QnI/view?usp=sharing'>here</a>. Now place this file in the directory <i>le_doc/skin_cancer</i></p>
 <p>Clone both the repositories containing the backend and frontend for the app.<br>Opening a terminal session from the home directory.</p>
 
-``
+```
 cd le_doc_fronted  
-``
-
-``
 npm start
-``
+```
 
 <p>Opening another terminal session from the home directory</p>
 
-``
+```
 cd le_doc
-``
-
-``
 source .env/bin/activate  
-``
-
-``
 pip install -r requirements.txt  
-``
-
-``
 python manage.py runserver
-``
+```
 
 <p> Also to test the results you can download the refined dataset with all the preprocessing already done:
     <a href='https://drive.google.com/file/d/1Z86Q54PLaDp65N0tQhwGbnL2FTaDytA-/view?usp=sharing'>Skin Cancer</a>, <a href='https://drive.google.com/file/d/1NbTfnIuRVuPyuXOshbvT2W8tGMtvPFi4/view?usp=sharing'>Brain Tumor</a>, <a href='https://drive.google.com/file/d/1TMEo87_R9_G-2JOx6Q-UWW0aOM6lwj4t/view?usp=sharing'>Brain Stroke</a>.
