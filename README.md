@@ -69,5 +69,4 @@ python manage.py runserver
 <b><ol>
     <li>Aniket Agarwal</li>
     <li>Praduman Goyal</li>
-    <li>Akshit Mittal</li>
 </ol></b>
